@@ -8,7 +8,7 @@ init
 --------------
 First, in the init of your game, init the minimap (the file has to be required, see require.js), for instance:
 
-var minimap = new Minimap({width: 100, height: 100, virtualWidth: 1440, virtualHeight: 1440, x: 690, y: 10, ctx: game.CTX, backgroundColor: "gray", pace: 50});
+    var minimap = new Minimap({width: 100, height: 100, virtualWidth: 1440, virtualHeight: 1440, x: 690, y: 10, ctx: game.CTX, backgroundColor: "gray", pace: 50});
 
 *"width"* and *"height"* attributes are the height and the width of the minimap on the screen. 
 the *virtualWidth* / *virtualHeight* are the height and size of your world.

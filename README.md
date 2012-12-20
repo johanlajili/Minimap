@@ -6,7 +6,7 @@ A Minimap API with easy integration into any Canvas based game
 Usage:
 init
 --------------
-First, in the init of your game, init the minimap (the file has to be required, see require.js), for instance:
+First, in the init of your game, init the minimap, for instance:
 
     var minimap = new Minimap({width: 100, height: 100, virtualWidth: 1440, virtualHeight: 1440, x: 690, y: 10, ctx: game.CTX, backgroundColor: "gray", pace: 50});
 
